@@ -1,0 +1,88 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #625261;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #a6a6a4;
+    padding: 5px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: #625261;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    background-color: #89beb3;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.box {
+    flex-grow: 1;
+    background-color: #e8e8e8;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box h2 {
+    padding: 2px;
+}
+
+.box img {
+    text-align: center;
+    color: wheat;
+    max-width: 250px;
+    align-content: center;
+}
+
+.box span {
+    text-align: center;
+}
+
+aside {
+    background: bisque;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #625261;
+    text-align: center;
+    font-weight: bold;
+}
