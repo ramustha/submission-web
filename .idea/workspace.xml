@@ -24,8 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="add flexbox">
+    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="update responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -55,10 +56,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
@@ -76,7 +81,9 @@
       <workItem from="1604369627521" duration="2318000" />
       <workItem from="1604699210863" duration="6448000" />
       <workItem from="1604887584654" duration="3075000" />
-      <workItem from="1604974366608" duration="2766000" />
+      <workItem from="1604974366608" duration="2859000" />
+      <workItem from="1605491724335" duration="1025000" />
+      <workItem from="1605532752456" duration="12917000" />
     </task>
     <task id="LOCAL-00001" summary="add flexbox">
       <created>1604371931180</created>
@@ -85,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604371931180</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update responsive">
+      <created>1604977204713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604977204713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,16 +119,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexbox" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flexbox" />
+    <MESSAGE value="update responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="update responsive" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1604371933149">
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1604977209123">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1604371933149" />
-    <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1604369694227">
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1604977209123" />
+    <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605544460241">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
-    <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1056@0.0.1920.1056" timestamp="1604369694227" />
+    <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1056@0.0.1920.1056" timestamp="1605544460241" />
   </component>
 </project>

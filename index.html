@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/styles/style.css"/>
+    <script src="assets/js/cart.js" defer></script>
     <title>Title</title>
 
 </head>
@@ -23,99 +24,33 @@
 </header>
 <main>
     <div id="content">
-        <div class="products">
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section>
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section>
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section><section>
-            <img src="assets/img/bandung-badge.png" alt="image">
-            <h2>Product</h2>
-            <article>
-                <ul>
-                    <li>Spec</li>
-                    <li>Spec</li>
-                </ul>
-                <button>Button</button>
-            </article>
-        </section>
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section>
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section>
-            <section>
-                <img src="assets/img/bandung-badge.png" alt="image">
-                <h2>Product</h2>
-                <article>
-                    <ul>
-                        <li>Spec</li>
-                        <li>Spec</li>
-                    </ul>
-                    <button>Button</button>
-                </article>
-            </section><section>
-            <img src="assets/img/bandung-badge.png" alt="image">
-            <h2>Product</h2>
-            <article>
-                <ul>
-                    <li>Spec</li>
-                    <li>Spec</li>
-                </ul>
-                <button>Button</button>
-            </article>
-        </section>
+        <div id="products">
         </div>
     </div>
 
     <aside>
-        <img src="https://i.imgur.com/cs2BJzw.jpg" width="200px" alt="dicoding">
-        <p>Nama: Ramadhani Musthofa</p>
+        <div class="profile">
+            <h2>Profile</h2>
+            <img src="assets/img/profile.jpg" alt="dicoding">
+            <p>Ramadhani Musthofa</p>
+            <p>------------------</p>
+            <p>Bergabung sejak 30 Jan 2016</p>
+            <p>Kota Bandung, Jawa Barat</p>
+        </div>
+        <div class="cart">
+            <h2>Keranjang</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Item</th>
+                    <th>Pcs</th>
+                </tr>
+                </thead>
+                <tbody id="cartList"></tbody>
+            </table>
+            <button id="resetCart">Reset</button>
+        </div>
     </aside>
 </main>
 <footer>
