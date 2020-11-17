@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/styles/style.css"/>
-    <script src="assets/js/cart.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Title</title>
 
 </head>
@@ -45,10 +47,12 @@
                     <th>No</th>
                     <th>Item</th>
                     <th>Pcs</th>
+                    <th>Price</th>
                 </tr>
                 </thead>
                 <tbody id="cartList"></tbody>
             </table>
+            <span id="sumCart"></span>
             <button id="resetCart">Reset</button>
         </div>
     </aside>
@@ -57,4 +61,7 @@
     &copy; 2020, Ramadhani Musthofa
 </footer>
 </body>
+
+<script src="assets/js/cart.js"></script>
+
 </html>

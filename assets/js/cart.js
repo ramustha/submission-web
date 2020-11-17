@@ -110,10 +110,12 @@ function showProducts() {
                         id: product.id,
                         name: product.name,
                         pcs: 1,
+                        price: product.price,
                     };
                     myProduct.push(newProduct);
                 } else {
                     foundProduct.pcs = foundProduct.pcs + 1;
+                    foundProduct.price = foundProduct.price + product.price;
                 }
 
                 --product.pcs;
@@ -148,11 +150,13 @@ function showCart() {
         row.innerHTML = "<td>" + (i + 1) + "</td>";
         row.innerHTML += "<td>" + myProduct[i].name + "</td>";
         row.innerHTML += "<td>" + myProduct[i].pcs + "</td>";
+        row.innerHTML += "<td>" + "Rp." + Number(myProduct[i].price).toLocaleString('id'); + "</td>";
 
         cartList.appendChild(row);
     }
 
     showResetBtn();
+    showSumCart();
 }
 
 // menampilkan btn reset
@@ -165,15 +169,33 @@ function showResetBtn() {
     }
 }
 
+// menampilkan sum cart
+function showSumCart() {
+    let sumCart = document.querySelector("#sumCart");
+    sumCart.innerHTML = "";
+
+    if (myProduct.length === 0) {
+        sumCart.style.display = "none";
+    } else {
+        sumCart.style.display = "block";
+    }
+
+    let sum = myProduct.map(p => p.price).reduce(getSum, 0);
+    sumCart.innerHTML = "Rp." + Number(sum).toLocaleString('id');
+}
+
 // reset cart
 function resetCart() {
     let resetCart = document.querySelector("#resetCart");
     resetCart.addEventListener("click", function (e) {
         myProduct = [];
-        productList = [];
         showProducts()
         showCart();
     });
+}
+
+function getSum(total, num) {
+    return total + num;
 }
 
 showProducts();

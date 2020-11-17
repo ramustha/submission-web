@@ -51,10 +51,21 @@ aside .cart {
 
     margin-top: 20px;
     margin-bottom: 20px;
+
+    overflow-y: scroll;
 }
 
 aside > div > img {
     padding: 5px;
+}
+
+@media (max-width: 850px) {
+    aside {
+        display: none;
+    }
+    #content {
+        width: 100%;
+    }
 }
 
 table {
@@ -74,12 +85,6 @@ th {
 }
 tr:nth-child(even) {
     background-color: #d2d2d2;
-}
-
-@media (max-width: 850px) {
-    aside {
-        display: none;
-    }
 }
 
 .jumbotron {

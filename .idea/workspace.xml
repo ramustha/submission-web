@@ -24,7 +24,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="update responsive">
+    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="update product js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
@@ -83,7 +83,7 @@
       <workItem from="1604887584654" duration="3075000" />
       <workItem from="1604974366608" duration="2859000" />
       <workItem from="1605491724335" duration="1025000" />
-      <workItem from="1605532752456" duration="12917000" />
+      <workItem from="1605532752456" duration="14376000" />
     </task>
     <task id="LOCAL-00001" summary="add flexbox">
       <created>1604371931180</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604977204713</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update product js">
+      <created>1605545708428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605545708428</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,13 +127,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flexbox" />
     <MESSAGE value="update responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="update responsive" />
+    <MESSAGE value="update product js" />
+    <option name="LAST_COMMIT_MESSAGE" value="update product js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1604977209123">
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1605545713743">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1604977209123" />
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1605545713743" />
     <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605544460241">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
