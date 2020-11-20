@@ -247,6 +247,10 @@ button:hover {
     border-radius: 1em;
 }
 
+#sumCart {
+    padding: 10px;
+}
+
 footer {
     padding: 20px;
     color: white;
