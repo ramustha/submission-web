@@ -1,92 +1,33 @@
-// data product
-let productList = [
-    {
-        id: "product1",
-        name: "product1",
-        price: 10000,
-        pcs: 10,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product2",
-        name: "product2",
-        price: 20000,
-        pcs: 20,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product1",
-        name: "product1",
-        price: 10000,
-        pcs: 10,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product2",
-        name: "product2",
-        price: 20000,
-        pcs: 20,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product1",
-        name: "product1",
-        price: 10000,
-        pcs: 10,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product2",
-        name: "product2",
-        price: 20000,
-        pcs: 20,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product1",
-        name: "product1",
-        price: 10000,
-        pcs: 10,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "NEW"
-    },
-    {
-        id: "product2",
-        name: "product2",
-        price: 20000,
-        pcs: 20,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "MAN"
-    },
-    {
-        id: "product1",
-        name: "product1",
-        price: 10000,
-        pcs: 10,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "MAN"
-    },
-    {
-        id: "product2",
-        name: "product2",
-        price: 20000,
-        pcs: 20,
-        imageUrl: "assets/img/bandung-badge.png",
-        type: "WOMAN"
-    }
-];
+import {newProductList} from './new-product.js';
+import {manProductList} from './man-product.js';
+import {womanProductList} from './woman-product.js';
 
 const productKey = "PRODUCT";
 const userProductKey = "USER_PRODUCT";
 
+let productList = shuffle(newProductList.concat(manProductList).concat(womanProductList));
 let myProduct = [];
 
+function shuffle(array) {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+
+// fungsi untuk navigasi
 function navigation() {
     let currentProductList = JSON.parse(localStorage.getItem(productKey));
 
@@ -120,13 +61,14 @@ function navigation() {
     let womanNav = document.getElementById("woman")
     womanNav.addEventListener("click", function (e) {
         clearActiveAttribute();
-        manNav.setAttribute("class", "active");
+        womanNav.setAttribute("class", "active");
 
         productList = currentProductList.filter(p => p.type === 'WOMAN');
         showProducts();
     });
 }
 
+// fungsi clear navigasi
 function clearActiveAttribute() {
     document.getElementById("home").removeAttribute("class");
     document.getElementById("new").removeAttribute("class");
@@ -144,14 +86,7 @@ function initProduct() {
             showCart();
         }
 
-        if (localStorage.getItem(productKey) === "undefined"
-            || localStorage.getItem(productKey) === null) {
-            localStorage.setItem(productKey, JSON.stringify(productList));
-        } else {
-            productList = JSON.parse(localStorage.getItem(productKey));
-
-            showProducts();
-        }
+        localStorage.setItem(productKey, JSON.stringify(productList));
     } else {
         alert("Browser tidak support storage")
     }
@@ -284,7 +219,9 @@ function resetCart() {
         myProduct = [];
         removeUserProduct();
         showCart();
-        initProduct();
+
+        productList = JSON.parse(localStorage.getItem(productKey));
+        showProducts();
     });
 }
 

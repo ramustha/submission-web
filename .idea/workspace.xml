@@ -24,10 +24,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="update product js">
+    <list default="true" id="9227f233-5728-45e8-b4f1-2e79ec6d8cd7" name="Default Changelist" comment="storage &amp; navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,15 +55,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/new" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/man" />
+      <recent name="$PROJECT_DIR$/assets/img/woman" />
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/new" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/img/man" />
       <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
@@ -84,7 +88,7 @@
       <workItem from="1604974366608" duration="2859000" />
       <workItem from="1605491724335" duration="1025000" />
       <workItem from="1605532752456" duration="14442000" />
-      <workItem from="1605910166552" duration="5769000" />
+      <workItem from="1605910166552" duration="9807000" />
     </task>
     <task id="LOCAL-00001" summary="add flexbox">
       <created>1604371931180</created>
@@ -114,11 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605579930553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="storage &amp; navigation">
+      <created>1605916010662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605916010662</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,16 +154,23 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add flexbox" />
     <MESSAGE value="update responsive" />
     <MESSAGE value="update product js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update product js" />
+    <MESSAGE value="storage &amp; navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="storage &amp; navigation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1605579932259">
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1605916014764">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
-    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1605579932259" />
+    <state x="1025" y="251" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1056@0.0.1920.1056" timestamp="1605916014764" />
+    <state x="1006" y="151" width="587" height="753" key="find.popup" timestamp="1605968810675">
+      <screen x="0" y="0" width="1920" height="1056" />
+    </state>
+    <state x="1006" y="151" width="587" height="753" key="find.popup/0.0.1920.1056@0.0.1920.1056" timestamp="1605968810675" />
     <state x="1093" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1605544460241">
       <screen x="0" y="0" width="1920" height="1056" />
     </state>
